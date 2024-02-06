@@ -1,6 +1,6 @@
 # Speech_to_Speech_Language_Translator
 
-#Problem Statement:
+# Problem Statement:
 
 If we don’t know how to speak in any other country and we don’t understand their native language, then we can use this tool to overcome the problem. We can translate between all those languages which are present in google translator. We can Capture audio using the microphone and translate that audio into desired language, and get back audio output file.
 
