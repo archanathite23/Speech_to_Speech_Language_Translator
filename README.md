@@ -5,11 +5,17 @@
 If we don’t know how to speak in any other country and we don’t understand their native language, then we can use this tool to overcome the problem. We can translate between all those languages which are present in google translator. We can Capture audio using the microphone and translate that audio into desired language, and get back audio output file.
 
 #### Libraries used:
+
 Requirements:
+
 •	python==3.9
+
 •	pip install googletrans ==3.1.0a0
+
 •	pip install pyaudio
+
 •	pip install SpeechRecognition
+
 •	pip install gtts
 
 •	googletrans: A Python library to interact with Google Translate API.
@@ -35,12 +41,19 @@ Requirements:
 
 Features:
 •	Fast and reliable - it uses the same servers that translate.google.com uses
+
 •	Auto language detection
+
 •	Bulk translations
+
 •	Customizable service URL
+
 •	Connection pooling (the advantage of using requests.Session)
+
 •	HTTP/2 support
+
 •	Note on library usage
+
 •	The maximum character limit on a single text is 15k.
 
 #	Pyaudio: 
@@ -60,7 +73,9 @@ Features:
 •	Speech Input Using a Microphone and Translation of Speech to Text: Allow Adjusting for Ambient Noise: Since the surrounding noise varies, we must allow the program a second or two to adjust the energy threshold of recording so it is adjusted according to the external noise level. Speech to text translation: This is done with the help of Google Speech Recognition. This requires an active internet connection to work. However, there are certain offline Recognition systems such as PocketSphinx, that have a very rigorous installation process that requires several dependencies. Google Speech Recognition is one of the easiest to use. You can now invoke recognize_google() to attempt to recognize(transcribe: audio to text) any speech in the audio. Depending on your internet connection speed, you may have to wait several seconds before seeing the result.
 •	Recognizing speech requires audio input, and SpeechRecognition makes retrieving this input really easy. Instead of having to build scripts for accessing microphones and processing audio files from scratch, SpeechRecognition will have you up and running in just a few minutes.
 •	The SpeechRecognition library acts as a wrapper for several popular speech APIs and is thus extremely flexible. One of these—the Google Web Speech API—supports a default API key that is hard-coded into the SpeechRecognition library. That means you can get off your feet without having to sign up for a service.
+
 Requirements
+
 •	Python 3.8+ (required).
 •	PyAudio 0.2.11+ (required only if you need to use microphone input, Microphone).
 •	PocketSphinx (required only if you need to use the Sphinx recognizer, recognizer_instance.recognize_sphinx)
